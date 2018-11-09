@@ -1,0 +1,32 @@
+.container,
+.content {
+    display: flex;
+}
+
+.container {
+    height: 100%;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.content .exercise-container {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.content .markdown-container {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.exercise-container {
+    flex: 1;
+    border-right: 1px solid black;
+}
+
+.padding {
+    padding: 0 2em;
+}
